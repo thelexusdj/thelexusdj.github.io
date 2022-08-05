@@ -1,4 +1,3 @@
-//!addcom !besote $(eval var origin="$(user)"; var destination="$(touser)"; $(urlfetch json [URL]))
 var probability = Math.floor(Math.random() * 100);
 if (probability === 0) {
     ( "@" + origin + " intento darle un beso a @" + destination + " pero recibió una cachetada!");
